@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Coordinates implements Cloneable {
+class Coordinates{
     private static final Logger LOGGER = Logger.getLogger("global");
     int x;
     int y;
@@ -13,8 +13,9 @@ class Coordinates implements Cloneable {
         this.y = y;
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    Coordinates(Coordinates obj) {
+        x=obj.x;
+        y=obj.y;
     }
 
     public String equals(Coordinates c3) {
@@ -23,14 +24,14 @@ class Coordinates implements Cloneable {
         return result;
     }
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args){
             Scanner sc = new Scanner(System.in);
             LOGGER.log(Level.INFO, "Enter the value x:");
             int x = sc.nextInt();
             LOGGER.log(Level.INFO, "Enter the value y:");
             int y = sc.nextInt();
             Coordinates c = new Coordinates(x, y);
-            Coordinates c2 = (Coordinates) c.clone();
+            Coordinates c2 = new Coordinates(c);
             String s = c.equals(c2);
             LOGGER.info("Orginal object and clonable object is Same ?: ");
             LOGGER.info(s);
