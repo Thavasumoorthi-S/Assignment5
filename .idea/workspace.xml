@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ffe9e1d-4c96-48a8-80c6-606bd43aecc5" name="Changes" comment="" />
+    <list default="true" id="2a24b026-42d6-4859-977c-d6376ce39ffa" name="Changes" comment="commit 1">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -17,27 +31,126 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2L4vDvungPpJjIXdNkHoFDs5J1F" />
+  <component name="ProjectId" id="2KtoibLWBjKjJVmULkxsmcoDgag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tringapps-User8/IdeaProjects/Assignment5&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ffe9e1d-4c96-48a8-80c6-606bd43aecc5" name="Changes" comment="" />
-      <created>1675143055456</created>
+      <changelist id="2a24b026-42d6-4859-977c-d6376ce39ffa" name="Changes" comment="" />
+      <created>1674803370068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675143055456</updated>
+      <updated>1674803370068</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit5">
+      <created>1674804050669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804050669</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit5">
+      <created>1674804252982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804252982</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit5">
+      <created>1674804331669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804331669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit5">
+      <created>1674804566613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804566613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit5">
+      <created>1674804781516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674804781516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit5">
+      <created>1674810169643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810169643</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit5">
+      <created>1674810343668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810343669</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit5">
+      <created>1674810525331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810525331</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit5">
+      <created>1674810701571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810701571</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit5">
+      <created>1674810877946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810877946</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit5">
+      <created>1674811158894</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674811158894</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit5">
+      <created>1675080521517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675080521517</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit 1">
+      <created>1675142889565</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675142889565</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit5" />
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
   </component>
 </project>
