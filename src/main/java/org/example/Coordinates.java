@@ -7,17 +7,14 @@ class Coordinates{
     private static final Logger LOGGER = Logger.getLogger("global");
     int x;
     int y;
-
     Coordinates(int x, int y) {
         this.x = x;
         this.y = y;
     }
-
     Coordinates(Coordinates obj) {
         x=obj.x;
         y=obj.y;
     }
-
     public String equals(Coordinates c3) {
         String result;
         result = this.x == c3.x && this.y == c3.y ? "true" : "false";
@@ -33,7 +30,14 @@ class Coordinates{
             Coordinates c = new Coordinates(x, y);
             Coordinates c2 = new Coordinates(c);
             String s = c.equals(c2);
-            LOGGER.info("Orginal object and clonable object is Same ?: ");
-            LOGGER.info(s);
+            LOGGER.info("Orginal object and clonable object is Same ?: "+s);
+            LOGGER.log(Level.INFO, "Enter the value x:");
+            x = sc.nextInt();
+            LOGGER.log(Level.INFO, "Enter the value y:");
+            y = sc.nextInt();
+            Coordinates c3=new Coordinates(x,y);
+            String s2=c.equals(c3);
+            LOGGER.info("Orginal object and new object is Same ?: "+s2);
+            LOGGER.info(s2);
     }
 }
