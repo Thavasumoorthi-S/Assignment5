@@ -22,6 +22,7 @@ class Coordinates{
     }
 
     public static void main(String[] args){
+            String result;
             Scanner sc = new Scanner(System.in);
             LOGGER.log(Level.INFO, "Enter the value x:");
             int x = sc.nextInt();
@@ -30,14 +31,16 @@ class Coordinates{
             Coordinates c = new Coordinates(x, y);
             Coordinates c2 = new Coordinates(c);
             String s = c.equals(c2);
-            LOGGER.info("Orginal object and clonable object is Same ?: "+s);
+            result="Orginal object and clonable object is Same ?: "+s;
+            LOGGER.info(result);
             LOGGER.log(Level.INFO, "Enter the value x:");
             x = sc.nextInt();
             LOGGER.log(Level.INFO, "Enter the value y:");
             y = sc.nextInt();
             Coordinates c3=new Coordinates(x,y);
             String s2=c.equals(c3);
-            LOGGER.info("Orginal object and new object is Same ?: "+s2);
+            result="Orginal object and new object is Same ?:"+s2;
+            LOGGER.info(result);
             LOGGER.info(s2);
     }
 }
